@@ -1,0 +1,78 @@
+body {
+    font-family: "sans-serif", Helvetica;
+    text-align: center;
+    list-style-position: inside;
+    background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:darkred;
+}
+
+img {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: darkred
+}
+
+.main-informations {
+    border-style: solid;
+    border-color: darkred;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.time-information-list {
+    ul {
+        font-weight: 700;
+        color: darkred;
+        padding: 7px;
+        margin: 20px;
+        display: inline-block
+    }
+
+    li {
+        font-size: 14px;
+        font-weight: 100;
+        color: black;
+    }
+}
+
+.nutritional-information-list {
+    ul {
+        font-weight: 700;
+        color: darkred;
+        padding: 7px;
+        margin: 20px;
+        display: inline-block
+    }
+
+    li {
+        font-size: 14px;
+        font-weight: 100;
+        color: black;
+    }
+}
+
+.ingredients-list {
+    ul {
+        font-weight: 700;
+        color: darkred;
+        padding: 7px;
+        margin: 20px;
+        display:inline-block;
+    }
+
+    li {
+        font-size: 14px;
+        font-weight: 100;
+        color: black;
+    }
+}
+
+img {
+    height: auto;
+    width: 450px;
+    justify-content: center;
+}
