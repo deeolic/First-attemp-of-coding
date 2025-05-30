@@ -5,14 +5,22 @@ body {
     background-color: white;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color:darkred;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: darkred;
 }
 
 img {
     border-style: solid;
     border-radius: 10px;
-    border-color: darkred
+    border-color: darkred;
+    height: auto;
+    width: 350px;
+    justify-content: center;
 }
 
 .main-informations {
@@ -34,8 +42,8 @@ img {
 
     li {
         font-size: 14px;
-        font-weight: 100;
         color: black;
+        font-weight: 500;
     }
 }
 
@@ -50,8 +58,8 @@ img {
 
     li {
         font-size: 14px;
-        font-weight: 100;
         color: black;
+        font-weight: 500;
     }
 }
 
@@ -61,18 +69,28 @@ img {
         color: darkred;
         padding: 7px;
         margin: 20px;
-        display:inline-block;
+        display: inline-block;
     }
 
     li {
         font-size: 14px;
-        font-weight: 100;
         color: black;
+        font-weight: 500;
     }
 }
 
-img {
-    height: auto;
-    width: 450px;
-    justify-content: center;
+.make-information-list {
+    ol {
+        font-weight: 700;
+        color: darkred;
+        padding: 7px;
+        margin: 20px;
+        display: inline-block;
+    }
+
+    li {
+        font-weight: 500;
+        font-size: 14px;
+        color: black;
+    }
 }
